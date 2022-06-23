@@ -6,6 +6,12 @@ body {
     line-height: 1.5;
 }
 
+@media (max-width: 991px) {
+    body {
+        font-size: 18px;
+    }
+}
+
 /* utility */
 
 .none {
@@ -31,6 +37,12 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (max-width: 1399px) {
+    .container, .container-wide {
+        width: 100%;
+    }
 }
 
 .container-wide {
